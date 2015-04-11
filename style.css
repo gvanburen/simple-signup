@@ -1,0 +1,36 @@
+.flexcontainer {
+	display: -webkit-flex;
+	display: flex;
+	align-items: center;
+	padding: 1em 2em;
+}
+
+.brand-logo {
+	background-image: url('./background.png');
+	background-size: cover;
+	height: 300px;
+	width: 300px;
+	-webkit-flex: 1 0 0;
+	flex: 1 0 0;
+}
+
+.myForm { 
+	margin: 1em;
+	padding: 1em;
+	-webkit-flex: 2 0 0;
+	flex: 2 0 0;
+}
+
+.myName {
+	margin: 2px; 
+
+}
+#myEmail { 
+	margin: 2px;
+}
+.myButton { 
+	background-color: #002a5f;
+	color: white;
+	border: none;
+
+}
